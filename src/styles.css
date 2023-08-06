@@ -1,0 +1,206 @@
+body {
+    font-family: sans-serif;
+    -webkit-font-smoothing: auto;
+    -moz-font-smoothing: auto;
+    -moz-osx-font-smoothing: grayscale;
+    /* font-smoothing: auto; */
+    text-rendering: optimizeLegibility;
+    /* font-smooth: always; */
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*Overall container for the whole single Product*/
+.container {
+    position: relative;
+    border: 2px solid #bdbbbb;
+    border-radius: 12px;
+    padding: 0px;
+    margin: 35px 20px;
+    height: auto;
+    width: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;   
+}
+
+.top {
+    flex: 40%;
+    /* 40% of total page */
+    background-color: #fff;
+    /* Shade of white for the left half */
+    border-radius: 20px 20px 0 0;
+    padding: 30px;
+    display: grid;
+    /* Using CSS grid layout */
+    grid-template-columns: 10% 10% 48% 6% 26%;
+    /* separated dimnetions for each grid*/
+    gap: 0.1px;
+    /* Adding a gap between grid items */
+    text-align: center;
+
+}
+
+.middle {
+    flex: 20%;
+    /* 70% of the container width */
+    background-color: #fff;
+    /* Shade of white for the left half */
+    border-radius: 20px 20px 0 0;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+
+
+.bottom {
+    flex: 40%;
+    /* 30% of the container width */
+    background-color: #F3F4F6;
+    /* Shade of white for the right half */
+    border-radius: 0 0 20px 20px;
+    padding: 10px 20px;
+    display: flex;
+}
+
+.box {
+    position: absolute;
+    top: -15px;
+    left: 25px;
+    background-color: #F3F4F6;
+    border: 2px solid #cac8c8;
+    color: #000;
+    padding: 7px 12px;
+    border-radius: 10px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 150px;
+}
+
+.maintext {
+    background-color: #F3F4F6;
+    /* Shade of white for the right half */
+    border-radius: 10px;
+    padding: 2px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.top3 {
+    color: #fff;
+    background-color: #3C81F6;
+    /* Shade of white for the left half */
+    border-radius: 10px 10px 0 0;
+    padding: 3px 10px;
+    text-align: center;
+}
+
+#perYear{
+    font-size: 2rem;
+    color: #1D40AF;
+}
+
+#perMonth {
+    font-size: 1.5rem;
+    color: #1D40AF;
+}
+
+.bottom3 {
+    color: #8B96A1;
+    font-weight: bold;
+    background-color: #D4E6EA;
+    /* Shade of white for the right half */
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.bot_left {
+    flex: 60%;
+    margin-left: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.spans {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+.bot_right {
+    flex: 40%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+.custom-button {
+    border-radius: 50px;
+    background-color: #1D2971;
+    color: #fff;
+    height: 30pt;
+    text-align: center;
+    font-size: medium;
+    padding: 1px 50px;
+    margin-top: 2rem;
+}
+
+.Firstdiv {
+    margin: 1rem;
+    margin-bottom: -0.5rem;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.btn-electricity{
+    background-color: #1D2971;
+    color: #fff;
+    text-align: center;
+    text-align: center;
+    font-size: small;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+.btn-filter {
+    background-color: #1D2971;
+    color: #fff;
+    text-align: center;
+    text-align: center;
+    font-size: small;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Styling of info icon on the top */
+#info{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(40, 39, 39);
+    padding: 0 5px;
+    border-radius: 100%;
+    background-color: rgba(36, 35, 35, 0.769);
+    font-size: 1rem;
+}
